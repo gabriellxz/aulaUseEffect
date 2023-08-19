@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em 1em;
+    color: black;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.card h2{
+    font-weight: 200;
+}
+
+.card-infor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-infor p {
+    color: green;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    cursor: pointer;
+}
